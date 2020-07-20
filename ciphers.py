@@ -21,11 +21,11 @@ def crypto_caesar(message,shift):
     'comp'
     
     '''
-    i=0
+    
     encrypt_caesar=""
     for i in range(len(message)):
         encrypt_caesar+=cr.shift_char(message[i],shift)
-        i+=1
+       
     return encrypt_caesar
 
 def caesar(message,key,crypt):
